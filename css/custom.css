@@ -1,0 +1,54 @@
+/* Navbar customization */
+.navbar-custom {
+  background-color: #6f42c1 !important;
+}
+
+.navbar-custom .navbar-brand {
+  color: white !important;
+}
+
+.navbar-custom .nav-link {
+  color: white !important;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffa500 !important;
+}
+
+/* Card customization */
+.card {
+  background-color: #f8f9fa;
+  border: 2px solid #6f42c1 !important;
+}
+
+.card-title {
+  color: #6f42c1;
+}
+
+/* Button accents */
+.btn-primary {
+  background-color: #ffa500 !important;
+  border-color: #ffa500 !important;
+}
+
+.btn-primary:hover {
+  background-color: #ff8c00 !important;
+  border-color: #ff8c00 !important;
+}
+
+/* Link accents */
+a {
+  color: #ffa500;
+}
+
+a:hover {
+  color: #ff8c00;
+}
+
+/* Hero section text */
+.hero-text {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
