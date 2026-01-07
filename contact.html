@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ETT — Contact Us</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!--stylesheet-->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-custom" aria-label="Main navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">ETT</a>
+      <img src="images/ETT-logo.webp" alt="ETT company icon" class="rounded-circle" width="40" height="40">
+
+      <div class="ms-auto d-flex align-items-center gap-3 d-lg-none">
+        <a href="#" class="nav-link p-0">
+          <img src="images/5-Star-Rating-Review-Transparent-PNG.png" alt="star rating icon" width="95" height="25">
+        </a>
+        <a href="#" class="nav-link p-0">
+          <img src="images/Default-Profile-Picture-Download-PNG-Image.png" alt="profile icon" class="rounded-circle" width="30" height="30">
+        </a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAbout" aria-controls="navbarNavAbout" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAbout">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item active"><a class="nav-link" href="about us.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- Main: help/contact section -->
+    <main class="py-5" id="main" role="main">
+        <div class="container">
+            <header class="mb-5 text-center">
+                <h1 class="h2 mb-2">Help & Support</h1>
+                <p class="text-muted mb-0">Have questions? We're here to help. Fill out the form below and we'll get back to you as soon as possible.</p>
+            </header>
+
+            <div class="row">
+           
+                <!-- Contact Form -->
+                <div class="col-lg-8 ">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <h2 class="h5 mb-4">Send us a Message</h2>
+                            
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3 ">
+                                        <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="lastName" name="lastName">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject <span class="text-danger">*</span></label>
+                                    <select class="form-control" id="subject" name="subject" required>
+                                        <option value="">Select a subject</option>
+                                        <option value="product">Product Inquiry</option>
+                                        <option value="service">Service Request</option>
+                                        <option value="support">Technical Support</option>
+                                        <option value="billing">Billing Question</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Main content end-->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <h5>About ETT</h5>
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <img src="images/ETT-logo.webp" alt="ETT company icon" class="rounded-circle" width="50" height="50">
+                    </div>
+                    <p>Your trusted partner for quality computers and expert support.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <p>
+                        <i class="bi bi-telephone"></i> (555) 123-4567<br>
+                        <i class="bi bi-envelope"></i> info@ettcomputers.com<br>
+                        <i class="bi bi-geo-alt"></i> 123 Tech Street, Silicon Valley, CA
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none">FAQ</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Troubleshooting</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Warranty Info</a></li>
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 text-center">
+          <h5>Follow Us</h5>
+          <div class="icons d-flex justify-content-center gap-2">
+            <a href="https://www.instagram.com/">
+              <img src="images/instagram-icon.png" alt="instagram icon" class="rounded-circle" width="40">
+            </a>
+            <a href="https://www.facebook.com/">
+              <img src="images/facebook-icon.png" alt="facebook icon" class="rounded-circle" width="40">
+            </a>
+            <a href="https://www.twitter.com/">
+              <img src="images/twitter-icon.png" alt="twitter icon" class="rounded-circle" width="40">
+            </a>
+          </div>
+        </div>
+      </div>
+            </div>
+
+            <hr class="bg-white-50">
+            <div class="text-center text-white-50">
+                <p>&copy; <span id="year"></span> ETT Computers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <!-- Javascripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+
+</body>
+</html>
